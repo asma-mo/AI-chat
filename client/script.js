@@ -81,7 +81,7 @@ const handleSubmit = async (e) => {
   
   loader(messageDev);
 
-  const response = await fetch("http://localhost:9000",{
+  const response = await fetch("https://ai-chat-n1im.onrender.com",{
     method: "POST",
     headers: {
       "Content-Type": "application/json"
